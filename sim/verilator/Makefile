@@ -160,6 +160,7 @@ xori \
 bltu \
 lw \
 sltiu \
+I-CLZ-01 \
 
 rv32u_test_cases = illegal
 

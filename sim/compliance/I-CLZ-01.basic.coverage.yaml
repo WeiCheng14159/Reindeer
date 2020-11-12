@@ -1,0 +1,2899 @@
+---
+add:
+  asm_count: 0
+  cross:
+    rs1_rs2:
+      c00: 0
+      c01: 0
+      c10: 0
+      c11: 0
+  rd:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+  rs1:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+  rs2:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+addi:
+  asm_count: 192
+  cross:
+    rs1_imm:
+      c00: 98
+      c01: 76
+      c10: 0
+      c11: 18
+  imm:
+    sign:
+      neg: 94
+      pos: 98
+  rd:
+    gpr:
+      a0: 9
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 1
+      ra: 9
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 9
+      t0: 0
+      t1: 85
+      t2: 76
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 3
+      tp: 0
+      zero: 0
+    sign:
+      neg: 18
+      pos: 174
+  rs1:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 9
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 9
+      t0: 0
+      t1: 76
+      t2: 76
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 22
+    sign:
+      neg: 18
+      pos: 174
+and:
+  asm_count: 76
+  cross:
+    rs1_rs2:
+      c00: 67
+      c01: 7
+      c10: 0
+      c11: 2
+  rd:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 76
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 2
+      pos: 74
+  rs1:
+    gpr:
+      a0: 76
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 2
+      pos: 74
+  rs2:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 76
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 9
+      pos: 67
+andi:
+  asm_count: 0
+  cross:
+    rs1_imm:
+      c00: 0
+      c01: 0
+      c10: 0
+      c11: 0
+  imm:
+    sign:
+      neg: 0
+      pos: 0
+  rd:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+  rs1:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+auipc:
+  asm_count: 28
+  rd:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 9
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 9
+      t0: 9
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 1
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 28
+      pos: 0
+beq:
+  asm_count: 3
+  cross:
+    nord_rs1_rs2:
+      c00: 3
+      c01: 0
+      c10: 0
+      c11: 0
+  offset:
+    sign:
+      neg: 0
+      pos: 3
+      zero: 0
+  rs1:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 3
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 3
+  rs2:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 3
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 3
+bge:
+  asm_count: 0
+  cross:
+    nord_rs1_rs2:
+      c00: 0
+      c01: 0
+      c10: 0
+      c11: 0
+  offset:
+    sign:
+      neg: 0
+      pos: 0
+      zero: 0
+  rs1:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+  rs2:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+bgeu:
+  asm_count: 0
+  cross:
+    nord_rs1_rs2:
+      c00: 0
+      c01: 0
+      c10: 0
+      c11: 0
+  offset:
+    sign:
+      neg: 0
+      pos: 0
+      zero: 0
+  rs1:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+  rs2:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+blt:
+  asm_count: 0
+  cross:
+    nord_rs1_rs2:
+      c00: 0
+      c01: 0
+      c10: 0
+      c11: 0
+  offset:
+    sign:
+      neg: 0
+      pos: 0
+      zero: 0
+  rs1:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+  rs2:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+bltu:
+  asm_count: 0
+  cross:
+    nord_rs1_rs2:
+      c00: 0
+      c01: 0
+      c10: 0
+      c11: 0
+  offset:
+    sign:
+      neg: 0
+      pos: 0
+      zero: 0
+  rs1:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+  rs2:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+bne:
+  asm_count: 152
+  cross:
+    nord_rs1_rs2:
+      c00: 150
+      c01: 0
+      c10: 2
+      c11: 0
+  offset:
+    sign:
+      neg: 76
+      pos: 76
+      zero: 0
+  rs1:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 76
+      t2: 0
+      t3: 76
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 2
+      pos: 150
+  rs2:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 152
+    sign:
+      neg: 0
+      pos: 152
+ebreak:
+  asm_count: 0
+ecall:
+  asm_count: 1
+fence:
+  asm_count: 1
+jal:
+  asm_count: 76
+  rd:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 9
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 67
+jalr:
+  asm_count: 9
+  imm:
+    sign:
+      neg: 0
+      pos: 9
+  rd:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 9
+lb:
+  asm_count: 0
+  imm:
+    sign:
+      neg: 0
+      pos: 0
+  rd:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+lbu:
+  asm_count: 0
+  imm:
+    sign:
+      neg: 0
+      pos: 0
+  rd:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+lh:
+  asm_count: 0
+  imm:
+    sign:
+      neg: 0
+      pos: 0
+  rd:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+lhu:
+  asm_count: 0
+  imm:
+    sign:
+      neg: 0
+      pos: 0
+  rd:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+lui:
+  asm_count: 0
+  rd:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+lw:
+  asm_count: 18
+  imm:
+    sign:
+      neg: 9
+      pos: 9
+  rd:
+    gpr:
+      a0: 9
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 9
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+or:
+  asm_count: 0
+  cross:
+    rs1_rs2:
+      c00: 0
+      c01: 0
+      c10: 0
+      c11: 0
+  rd:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+  rs1:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+  rs2:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+ori:
+  asm_count: 0
+  cross:
+    rs1_imm:
+      c00: 0
+      c01: 0
+      c10: 0
+      c11: 0
+  imm:
+    sign:
+      neg: 0
+      pos: 0
+  rd:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+  rs1:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+sb:
+  asm_count: 0
+  imm:
+    sign:
+      neg: 0
+      pos: 0
+  rs2:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+sh:
+  asm_count: 0
+  imm:
+    sign:
+      neg: 0
+      pos: 0
+  rs2:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+sll:
+  asm_count: 0
+  rd:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+  rs1:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+  rs2:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+slli:
+  asm_count: 0
+  rd:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+  rs1:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+slt:
+  asm_count: 0
+  cross:
+    rs1_rs2:
+      c00: 0
+      c01: 0
+      c10: 0
+      c11: 0
+  rd:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+  rs1:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+  rs2:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+slti:
+  asm_count: 0
+  cross:
+    rs1_imm:
+      c00: 0
+      c01: 0
+      c10: 0
+      c11: 0
+  imm:
+    sign:
+      neg: 0
+      pos: 0
+  rd:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+  rs1:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+sltiu:
+  asm_count: 0
+  cross:
+    rs1_imm:
+      c00: 0
+      c01: 0
+      c10: 0
+      c11: 0
+  imm:
+    sign:
+      neg: 0
+      pos: 0
+  rd:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+  rs1:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+sltu:
+  asm_count: 0
+  cross:
+    rs1_rs2:
+      c00: 0
+      c01: 0
+      c10: 0
+      c11: 0
+  rd:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+  rs1:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+  rs2:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+sra:
+  asm_count: 0
+  rd:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+  rs1:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+  rs2:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+srai:
+  asm_count: 0
+  rd:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+  rs1:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+srl:
+  asm_count: 0
+  rd:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+  rs1:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+  rs2:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+srli:
+  asm_count: 67
+  rd:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 67
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 67
+  rs1:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 67
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 7
+      pos: 60
+sub:
+  asm_count: 0
+  cross:
+    rs1_rs2:
+      c00: 0
+      c01: 0
+      c10: 0
+      c11: 0
+  rd:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+  rs1:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+  rs2:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+sw:
+  asm_count: 18
+  imm:
+    sign:
+      neg: 0
+      pos: 18
+  rs2:
+    gpr:
+      a0: 18
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+xor:
+  asm_count: 0
+  cross:
+    rs1_rs2:
+      c00: 0
+      c01: 0
+      c10: 0
+      c11: 0
+  rd:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+  rs1:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+  rs2:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+xori:
+  asm_count: 0
+  cross:
+    rs1_imm:
+      c00: 0
+      c01: 0
+      c10: 0
+      c11: 0
+  imm:
+    sign:
+      neg: 0
+      pos: 0
+  rd:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+  rs1:
+    gpr:
+      a0: 0
+      a1: 0
+      a2: 0
+      a3: 0
+      a4: 0
+      a5: 0
+      a6: 0
+      a7: 0
+      gp: 0
+      ra: 0
+      s0: 0
+      s1: 0
+      s10: 0
+      s11: 0
+      s2: 0
+      s3: 0
+      s4: 0
+      s5: 0
+      s6: 0
+      s7: 0
+      s8: 0
+      s9: 0
+      sp: 0
+      t0: 0
+      t1: 0
+      t2: 0
+      t3: 0
+      t4: 0
+      t5: 0
+      t6: 0
+      tp: 0
+      zero: 0
+    sign:
+      neg: 0
+      pos: 0
+...

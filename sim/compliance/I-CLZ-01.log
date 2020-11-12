@@ -1,0 +1,88 @@
+Info Session started: Thu Nov 12 10:35:10 2020
+
+Info ------------- ENVIRONMENT -------------
+Info --------------------------------------
+Info -------- FLAGS (from /home/wei/git/imperas-riscv-tests/riscv-ovpsim/bin/Linux64/riscvOVPsim.exe)
+Info --variant  RV32I
+Info --program  /home/wei/git/riscv-compliance/work//I-CLZ-01.elf
+Info --signaturedump
+Info --customcontrol
+Info --cover  basic
+Info --startcover  begin_testcode
+Info --finishcover  end_testcode
+Info --outputfile  /home/wei/git/riscv-compliance/work//I-CLZ-01.basic.coverage.yaml
+Info --extensions  RVI
+Info --override  riscvOVPsim/cpu/sigdump/SignatureFile=/home/wei/git/riscv-compliance/work//I-CLZ-01.signature.output
+Info --override  riscvOVPsim/cpu/sigdump/ResultReg=3
+Info --override  riscvOVPsim/cpu/simulateexceptions=T
+Info --override  riscvOVPsim/cpu/defaultsemihost=F
+Info --logfile  /home/wei/git/riscv-compliance/work//I-CLZ-01.log
+Info --override  riscvOVPsim/cpu/user_version=2.3
+Info --override  riscvOVPsim/cpu/priv_version=1.11
+Info --------------------------------------
+Imperas riscvOVPsim
+
+
+riscvOVPsim (64-Bit) v20201021.0 Open Virtual Platform simulator from www.IMPERAS.com.
+Copyright (c) 2005-2020 Imperas Software Ltd.  Contains Imperas Proprietary Information.
+Licensed Software, All Rights Reserved.
+Visit www.IMPERAS.com for multicore debug, verification and analysis solutions.
+
+riscvOVPsim started: Thu Nov 12 10:35:10 2020
+
+
+Info (OR_OF) Target 'riscvOVPsim/cpu' has object file read from '/home/wei/git/riscv-compliance/work//I-CLZ-01.elf'
+Info (OR_PH) Program Headers:
+Info (OR_PH) Type           Offset     VirtAddr   PhysAddr   FileSiz    MemSiz     Flags Align
+Info (OR_PD) LOAD           0x00001000 0x80000000 0x80000000 0x0000027c 0x0000027c R-E   1000
+Info (OR_PD) LOAD           0x00002000 0x80001000 0x80001000 0x00001204 0x00001204 RW-   1000
+Info (SIGNATURE_DUMP) Found Symbol 'begin_signature' in application at 0x80002030
+Info (SIGNATURE_DUMP) Found Symbol 'end_signature' in application at 0x80002080
+Info (SIGNATURE_DUMP) Signature File enabled, file '/home/wei/git/riscv-compliance/work//I-CLZ-01.signature.output'.
+Info (SIGNATURE_DUMP) Extracting signature from 0x80002030 size 80 bytes
+Info (SIGNATURE_DUMP) Symbol 'begin_signature' at 0x80002030
+Info (SIGNATURE_DUMP) Symbol 'end_signature' at 0x80002080
+Info (ICV_ALI) Pseudo instructions will be translated
+Info (ICV_ST) Starting coverage at 0x80000100
+Info (SIGNATURE_DUMP) Intercept 'write_tohost'. Generate Signature file
+0000001f0000000100000000ffffffff
+000000017fffffff0000000800a0000f
+000000100000abcd0000000080000000
+0000000603dcba980000000312345678
+00000000000000000000000236925814
+Test PASSED
+Info (ICV_WCF) Writing coverage file /home/wei/git/riscv-compliance/work//I-CLZ-01.basic.coverage.yaml
+Info (ICV_FIN) Instruction Coverage finished
+Info ---------------------------------------------------
+Info TOTAL INSTRUCTION COVERAGE : RVI
+Info   Threshold             : 1
+Info   Instructions counted  : 641
+Info   Unique instructions   : 12/40 :  30.00%
+Info   Coverage points hit   : 71/2541 :   2.79%
+Info ---------------------------------------------------
+Info 
+Info ---------------------------------------------------
+Info CPU 'riscvOVPsim/cpu' STATISTICS
+Info   Type                  : riscv (RV32I)
+Info   Nominal MIPS          : 100
+Info   Final program counter : 0x80000040
+Info   Simulated instructions: 680
+Info   Simulated MIPS        : run too short for meaningful result
+Info ---------------------------------------------------
+Info 
+Info ---------------------------------------------------
+Info SIMULATION TIME STATISTICS
+Info   Simulated time        : 0.00 seconds
+Info   User time             : 0.01 seconds
+Info   System time           : 0.00 seconds
+Info   Elapsed time          : 0.01 seconds
+Info ---------------------------------------------------
+
+riscvOVPsim finished: Thu Nov 12 10:35:10 2020
+
+
+riscvOVPsim (64-Bit) v20201021.0 Open Virtual Platform simulator from www.IMPERAS.com.
+Visit www.IMPERAS.com for multicore debug, verification and analysis solutions.
+
+Info Session ended: Thu Nov 12 10:35:10 2020
+
